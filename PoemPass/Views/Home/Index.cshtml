@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.65, user-scalable=no">
+    <title>PoemPass | Home</title>
+    <link rel="shortcut icon" href="~/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="notification">Copied!</div>
+    <main>
+        <partial name="~/Views/PartialViews/Header.cshtml"/>
+
+        <div class="block">
+            <span class="block-title">Generate a password that is easy to remember</span>
+            <hr class="line">
+            <div class="parts__wrapper">
+                <div class="mainBlockPart">
+    
+                    <form>
+                        <label class="lengthLabel" for="length">Length
+                            <div class="lengthBlock">
+                                <input class="length" type="text">
+                                <div class="arrows">
+                                    <a class="arrow arrowUp">
+                                        <img src="/img/arrow.svg">
+                                    </a>
+                                    <a class="arrow arrowDown" ><img src="/img/arrow.svg"></a>
+                                </div>
+                            </div>
+                        </label>
+
+                        <label class="ownPassLabel hidden" for="ownPassword">Own password
+                            <div class="ownPasswordBlock">
+                                <input class="ownPasswordInput" type="password">
+                                <img class="showPassword" src="~/img/eye.svg" width="36" />
+                            </div>
+                        </label>
+                        
+                        <div class="checkboxes">
+                            <div>
+                                <label class="container reverseMode">
+                                    <input class="reverseModeInput" type="checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="checkmark-title">Reverse mode</span>
+                                </label>
+        
+                                <label class="container includeNumbers">
+                                    <input class="includeNumbersInput" type="checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="checkmark-title">Include numbers</span>
+                                </label>
+        
+                                <label class="container includeSpecialSymbols">
+                                    <input class="removeSpecialSymbolsInput" type="checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="checkmark-title">Remove special symbols</span>
+                                </label>
+                            </div>
+                            <div>        
+                                <label class="container">
+                                    <input class="capitalizeNouns" type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                    <span class="checkmark-title">Capitalize nouns</span>
+                                </label>
+                                <label class="container" checked="checked">
+                                    <input class="capitalizeVerbs" type="checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="checkmark-title">Capitalize verbs</span>
+                                </label>
+                                <label class="container">
+                                    <input class="capitalizePronouns" type="checkbox">
+                                    <span class="checkmark"></span>
+                                    <span class="checkmark-title">Capitalize pronouns</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <span>Separator</span>
+                        <div class="radio-buttons">
+                            <label class="container">
+                                <input value=" " data-value=" " type="radio" checked="checked" name="radio">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input value="-" type="radio" name="radio">
+                                <span data-value="-" class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input value="\" type="radio" name="radio">
+                                <span data-value="\" class="checkmark"></span>
+                            </label>
+                            <label class="container">
+                                <input value="/" type="radio" name="radio">
+                                <span data-value="/" class="checkmark"></span>
+                            </label>
+                        </div>
+    
+                        <input type="button" class="button generate" value="Generate" />
+                    </form>
+    
+                    <div class="results">
+                        <div class="passwordResultBlock">
+                            <a draggable="false" class="button copy copyPass" onclick="copyText('.generatedPassword')"><img draggable="false" src="img/copy.svg" width="36px"></a>
+                            <span class="resultPassword">Password is</span>
+                            <span class="generatedPassword"></span><br>
+                        </div>
+
+                        <div class="poemResultBlock">
+                            <a draggable="false" class="button copy copyPoem" onclick="copyText('.generatedPoem')"><img draggable="false" src="img/copy.svg" width="36px"></a>
+                            <span class="resultPoem">Poem is</span>
+                            <span class="generatedPoem"></span>
+                        </div>
+                    </div>
+            
+                </div>
+                <div class="ad"></div>
+            </div>
+        </div>
+    </main>
+
+    
+    <partial name="~/Views/PartialViews/Footer.cshtml"/>
+</body>
+</html>

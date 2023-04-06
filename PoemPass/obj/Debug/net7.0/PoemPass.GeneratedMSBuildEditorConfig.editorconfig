@@ -1,0 +1,37 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PoemPass
+build_property.RootNamespace = PoemPass
+build_property.ProjectDir = C:\Users\mrqua\repos\source\PoemPass\PoemPass\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mrqua\repos\source\PoemPass\PoemPass
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mrqua/repos/source/PoemPass/PoemPass/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrqua/repos/source/PoemPass/PoemPass/Views/Home/Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrqua/repos/source/PoemPass/PoemPass/Views/Home/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrqua/repos/source/PoemPass/PoemPass/Views/PartialViews/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbFZpZXdzXEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrqua/repos/source/PoemPass/PoemPass/Views/PartialViews/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbFZpZXdzXEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

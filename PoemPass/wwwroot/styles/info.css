@@ -1,0 +1,20 @@
+﻿.mainBlockPart {
+    font-size: 20px;
+    font-family: LexendDeca;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainBlockPart a {
+    width: 40%;
+}
+
+.mainBlockPart img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.mainBlockPart .mqd {
+    margin-top: 20px;
+}

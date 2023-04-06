@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\fonts\\Inconsolata-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Inconsolata-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\fonts\\LexendDeca-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\LexendDeca-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\img\\arrow.svg",
+      "PackagePath": "staticwebassets\\img\\arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\img\\copy.svg",
+      "PackagePath": "staticwebassets\\img\\copy.svg"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\img\\eye.svg",
+      "PackagePath": "staticwebassets\\img\\eye.svg"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\img\\reverseMode.png",
+      "PackagePath": "staticwebassets\\img\\reverseMode.png"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\scripts\\index.js",
+      "PackagePath": "staticwebassets\\scripts\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\scripts\\jquery-3.6.4.min.js",
+      "PackagePath": "staticwebassets\\scripts\\jquery-3.6.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\styles\\info.css",
+      "PackagePath": "staticwebassets\\styles\\info.css"
+    },
+    {
+      "Id": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\wwwroot\\styles\\style.css",
+      "PackagePath": "staticwebassets\\styles\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PoemPass.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PoemPass.props",
+      "PackagePath": "build\\PoemPass.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PoemPass.props",
+      "PackagePath": "buildMultiTargeting\\PoemPass.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PoemPass.props",
+      "PackagePath": "buildTransitive\\PoemPass.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

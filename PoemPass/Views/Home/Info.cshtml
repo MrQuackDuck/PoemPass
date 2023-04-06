@@ -1,0 +1,40 @@
+﻿@model string
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="~/styles/style.css">
+    <link rel="stylesheet" href="~/styles/info.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.65, user-scalable=no">
+    <title>PoemPass | Info</title>
+    <link rel="shortcut icon" href="~/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="notification">Copied!</div>
+    <main>
+        <partial name="~/Views/PartialViews/Header.cshtml"/>
+
+        <div class="block">
+            <span class="block-title">Information</span>
+            <hr class="line">
+            <div class="parts__wrapper">
+                <div class="mainBlockPart">
+                    <span>@Html.Raw(Model)</span>
+                    <a href="~/img/reverseMode.png" target="_blank"><img src="~/img/reverseMode.png" alt="reverseMode"></a>
+                    <br/>
+                    <span class="mqd">By JustEmpire 🔥</span>
+                </div>
+                <div class="ad"></div>
+            </div>
+        </div>
+    </main>
+
+    
+    <partial name="~/Views/PartialViews/Footer.cshtml"/>
+
+    <script src="~/scripts/jquery-3.6.4.min.js"></script>
+    <script src="~/scripts/index.js"></script>
+</body>
+</html>
