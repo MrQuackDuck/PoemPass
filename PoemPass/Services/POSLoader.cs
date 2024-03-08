@@ -3,17 +3,20 @@ using PoemPass.Models;
 
 namespace PoemPass.Services;
 
-class POSLoader
+/// <summary>
+/// Class to load Parts of Speech (like nouns, adjectives etc.)
+/// </summary>
+class PosLoader
 {
-    private readonly string nounsPath = @"./POS/nouns.json";
-    private readonly string pronounsPath = @"./POS/pronouns.json";
-    private readonly string adjectivesPath = @"./POS/adjectives.json";
-    private readonly string adverbsPath = @"./POS/adverbs.json";
-    private readonly string verbsPath = @"./POS/verbs.json";
-    private readonly string prepositionsPath = @"./POS/prepositions.json";
-    private readonly string interjectionsPath = @"./POS/intejections.json";
-    private readonly string patternsPath = @"./POS/_patterns.json";
-    private readonly string ultimatePatternsPath = @"./POS/_ultimatePatterns.json";
+    private readonly string nounsPath = @"./PartsOfSpeech/nouns.json";
+    private readonly string pronounsPath = @"./PartsOfSpeech/pronouns.json";
+    private readonly string adjectivesPath = @"./PartsOfSpeech/adjectives.json";
+    private readonly string adverbsPath = @"./PartsOfSpeech/adverbs.json";
+    private readonly string verbsPath = @"./PartsOfSpeech/verbs.json";
+    private readonly string prepositionsPath = @"./PartsOfSpeech/prepositions.json";
+    private readonly string interjectionsPath = @"./PartsOfSpeech/intejections.json";
+    private readonly string patternsPath = @"./PartsOfSpeech/_patterns.json";
+    private readonly string sentenceContinuationPatternsPath = @"./PartsOfSpeech/_sentenceContinuationPatterns.json";
 
     public List<string> GetNouns()
     {
@@ -64,16 +67,16 @@ class POSLoader
         return result;
     }
     
-    public List<string> GetPatterns()
+    public List<string> GetSentencePatterns()
     {
         string jsonString = File.ReadAllText(patternsPath);
         var result = JsonSerializer.Deserialize<List<string>>(jsonString);
         return result;
     }
 
-    public List<string> GetUltimatePatterns()
+    public List<string> GetSentenceContinuationPatterns()
     {
-        string jsonString = File.ReadAllText(ultimatePatternsPath);
+        string jsonString = File.ReadAllText(sentenceContinuationPatternsPath);
         var result = JsonSerializer.Deserialize<List<string>>(jsonString);
         return result;
     }

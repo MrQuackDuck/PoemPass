@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "swuJ5aZjVW4Lt3ZWoLo5Iu+YeHrGMuG07M78RuxjgZLAIF8XTyOudvGUKCPooi+WmNHWWi+rDQGXA3Trkdgw1g==",
+  "dgSpecHash": "VCwSE+RY8xYW6nSvaQTFSvfSCfkBf/Z+QAOHWcj6OTeCJ6c6wztiOCO0+HJgPZ9mIIw2JRRChVC52+OcLBUoMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrqua\\repos\\source\\PoemPass\\PoemPass\\PoemPass.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mrqua\\source\\repos\\PoemPass\\PoemPass\\PoemPass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrqua\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mrqua\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mrqua\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\mrqua\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

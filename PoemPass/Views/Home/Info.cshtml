@@ -1,6 +1,4 @@
-﻿@model string
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="~/styles/style.css">
@@ -21,12 +19,19 @@
             <hr class="line">
             <div class="parts__wrapper">
                 <div class="mainBlockPart">
-                    <span>@Html.Raw(Model)</span>
+                    <span>
+                        Our service is designed to generate passwords that are easy to remember thanks to
+                        the 'poem' that is generated along with the password. When the password symbol is capital,
+                        then the name of the person is selected as word for poem. You can also generate a poem
+                        using your own password. <br/> <br/>
+                        "Reverse mode" is a mode where in the generated poem each letter of the password is at
+                        the end of each word. If the character starts with a capital letter, then the word
+                        will also begin with a capital letter, but its last letter remains small.
+                    </span>
                     <a href="~/img/reverseMode.png" target="_blank"><img src="~/img/reverseMode.png" alt="reverseMode"></a>
                     <br/>
                     <span class="mqd">By JustEmpire 🔥</span>
                 </div>
-                <div class="ad"></div>
             </div>
         </div>
     </main>

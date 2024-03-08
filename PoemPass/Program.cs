@@ -3,7 +3,7 @@ using PoemPass.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddMvc();
-builder.Services.AddSingleton<Generator>();
+builder.Services.AddSingleton<PoemPassGenerator>();
 
 var app = builder.Build();
 app.UseHttpsRedirection();

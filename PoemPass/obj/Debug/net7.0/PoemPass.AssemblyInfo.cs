@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PoemPass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38de6640f3099abaeaa0ac037a40d0af7230e49b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PoemPass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PoemPass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
