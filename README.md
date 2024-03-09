@@ -24,5 +24,5 @@ This website can be also used as a <b>dummy text generator</b>.
 - <code>Iwhwbwha</code> stands for <code>I wish he would borrow with him and</code><br>
 
 <h1>👀 Screenshots</h1>
-<img height=256 src="https://github.com/MrQuackDuck/PoemPass/assets/61251075/9a08be44-8e88-419d-8044-2bdaec6d3497">
-<img height=256 src="https://github.com/MrQuackDuck/PoemPass/assets/61251075/3769a692-5b86-4cde-aad7-94ebbab2e26b">
+<img height=140 src="https://github.com/MrQuackDuck/PoemPass/assets/61251075/9a08be44-8e88-419d-8044-2bdaec6d3497">
+<img height=140 src="https://github.com/MrQuackDuck/PoemPass/assets/61251075/3769a692-5b86-4cde-aad7-94ebbab2e26b">
