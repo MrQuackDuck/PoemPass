@@ -21,7 +21,7 @@ This website can be also used as a <b>dummy text generator</b>.
 - <code>i wish he would lie with it even</code> stands for <code>iwhwlwie</code><br>
 - <code>This Taint includes hundreds of Ascents you can</code> stands for <code>TTihoAyc</code><br>
 - <code>she never dances without itself which makes it</code> stands for <code>sndwiwmi</code><br>
-- <code>Iwhwbwha</code> stands for <code>I wish he would borrow with him and</code><br>
+- <code>I wish he would borrow with him and</code> stands for <code>Iwhwbwha</code><br>
 
 <h1>👀 Screenshots</h1>
 <img height=170 src="https://github.com/MrQuackDuck/PoemPass/assets/61251075/9a08be44-8e88-419d-8044-2bdaec6d3497">
