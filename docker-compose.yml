@@ -1,0 +1,5 @@
+﻿services:
+  poempass:
+    build: .
+    ports:
+      - "7600:80"
