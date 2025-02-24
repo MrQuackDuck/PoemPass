@@ -12,7 +12,7 @@ This website can be also used as a <b>dummy text generator</b>.
 > Generated passphrases sometimes can be offensive and stupid, so never mind. <br>
 > While developing, I didn't intend to offend anyone. <br>
 
-<h1>🌊 Examples</h1>
+### 🌊 Examples
 
 > [!IMPORTANT]
 > The passphrases are generated using random patterns and words, so they don't make much sense. <br>
@@ -23,6 +23,15 @@ This website can be also used as a <b>dummy text generator</b>.
 - <code>she never dances without itself which makes it</code> stands for <code>sndwiwmi</code><br>
 - <code>I wish he would borrow with him and</code> stands for <code>Iwhwbwha</code><br>
 
-<h1>👀 Screenshots</h1>
+### 👀 Screenshots
 <img height=170 src="https://github.com/MrQuackDuck/PoemPass/assets/61251075/9a08be44-8e88-419d-8044-2bdaec6d3497">
 <img height=170 src="https://github.com/MrQuackDuck/PoemPass/assets/61251075/3769a692-5b86-4cde-aad7-94ebbab2e26b">
+
+### 🐳 Deployment
+1. Install <a href="https://docs.docker.com/get-docker/">Docker</a>
+2. Clone this repo <br>
+   **>** `git clone https://github.com/MrQuackDuck/PoemPass.git`
+3. Jump into the folder <br>
+   **>** `cd .\ColirBackend\`
+4. Run the container <br>
+   **>** `docker compose up`
