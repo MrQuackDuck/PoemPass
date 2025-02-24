@@ -32,6 +32,6 @@ This website can be also used as a <b>dummy text generator</b>.
 2. Clone this repo <br>
    **>** `git clone https://github.com/MrQuackDuck/PoemPass.git`
 3. Jump into the folder <br>
-   **>** `cd .\ColirBackend\`
+   **>** `cd .\PoemPass\`
 4. Run the container <br>
    **>** `docker compose up`
